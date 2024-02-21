@@ -32,7 +32,7 @@ class RoombaConnectionError(Exception):
 
 
 class Roomba:
-    """This is a Class for Roomba 900 series WiFi connected Vacuum cleaners.
+    """This is a Class for Roomba 900 series Wi-Fi connected Vacuum cleaners.
 
     Requires firmware version 2.0 and above (not V1.0). Tested with Roomba 980
     username (blid) and password are required, and can be found using the
@@ -261,7 +261,7 @@ class Roomba:
     def decode_payload(self, topic, payload):
         """Format json for pretty printing.
 
-        Returns string sutiable for logging, and a dict of the json data
+        Returns string suitable for logging, and a dict of the json data
         """
         indent = self.master_indent + 31  # number of spaces to indent json data
 
